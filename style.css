@@ -25,7 +25,13 @@ h1 {
   text-shadow: 2px 2px rgb(248, 246, 248);
 }
 
+h4{
+  margin-top: 0;
+  text-shadow: 2px 2px rgb(248, 246, 248);
+}
+
 h3 {
+  
   text-shadow: 1px 1px rgb(255, 167, 211);
   margin-top: 0;
 }
