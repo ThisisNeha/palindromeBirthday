@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat;
   background-position: contain;
   background-size: 100%;
-  font-family: 'Halant', serif;
+  font-family: "Halant", serif;
   font-size: 1.5rem;
   color: rgb(233, 3, 118);
 }
@@ -16,7 +16,6 @@ body {
   align-items: center;
   justify-content: center;
   margin: 2.5rem;
-  
 }
 
 h1 {
@@ -25,13 +24,12 @@ h1 {
   text-shadow: 2px 2px rgb(248, 246, 248);
 }
 
-h4{
+h4 {
   margin-top: 0;
   text-shadow: 2px 2px rgb(248, 246, 248);
 }
 
 h3 {
-  
   text-shadow: 1px 1px rgb(255, 167, 211);
   margin-top: 0;
 }
@@ -42,7 +40,7 @@ h3 {
   color: rgb(223, 4, 106);
   border-radius: 8px;
   font-size: 1rem;
-  font-family: 'Halant', serif;
+  font-family: "Halant", serif;
   font-weight: 600;
   border: 2px solid rgb(240, 191, 215);
 }
@@ -50,7 +48,7 @@ h3 {
 #btn {
   cursor: pointer;
   border-radius: 8px;
-  border:2px solid rgb(240, 191, 215);
+  border: 2px solid rgb(240, 191, 215);
   background-color: rgb(252, 216, 222);
   color: rgb(235, 4, 112);
   font-size: 1.8rem;
@@ -59,27 +57,33 @@ h3 {
   font-family: "Oleo Script", cursive;
 }
 
-#btn:hover{
-box-shadow: 2px 2px rgb(252, 127, 148);
+#btn:hover {
+  box-shadow: 2px 2px rgb(252, 127, 148);
 }
-
 
 /* footer */
 
-footer{
+footer {
   position: absolute;
-  bottom:0px;
+  bottom: 0px;
   padding-left: 3rem;
 }
 
-img{
+img {
   padding-left: 5px;
   width: 25%;
 }
 
-.copy-right{
+.copy-right {
   font-size: 1rem;
   font-weight: 600;
   color: #fc236c;
   padding-left: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    position: relative;
+    bottom: 1rem;
+  }
 }
