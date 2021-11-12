@@ -81,9 +81,9 @@ img {
   padding-left: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   footer {
     position: relative;
-    bottom: 1rem;
+    bottom: 3rem;
   }
 }
